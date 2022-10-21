@@ -21,8 +21,8 @@ function MoviesSection({ list, title, items }) {
 										src={`https://image.tmdb.org/t/p/w200/${item.poster_path}`}
 									/>
 									<div
-										className="opacity-0 absolute flex top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-4xl rounded-full flex 
- justify-center items-center border border border-zinc-400 p-6 w-6 h-6 bg-zinc-800  group-hover:opacity-100"
+										className="opacity-0 absolute flex top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-2xl rounded-full flex 
+ justify-center items-center border border border-zinc-500 p-6 w-6 h-6 bg-zinc-800  group-hover:opacity-100"
 									>
 										+
 									</div>

@@ -3,6 +3,7 @@ import { getHomeMovies, getHomeSeries } from "../ApiMovies";
 import MoviesSection from "./MoviesSection";
 import SeriesSection from "./SeriesSection";
 import "../App.css";
+import SearchSection from "./SearchSection";
 
 function Home() {
 	const [moviesList, setMoviesList] = useState([]);
@@ -29,6 +30,7 @@ function Home() {
 	return (
 		<div className="App">
 			<div className="h-2 bg-black dark:bg-white"></div>
+			<SearchSection moviesList={moviesList} seriesList={seriesList} />
 			<section className="mt-10">
 				{moviesList.map((item, key) => (
 					<div key={key}>
